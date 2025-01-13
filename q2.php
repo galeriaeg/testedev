@@ -17,8 +17,8 @@ for ($i = 0; $i <= $numero; $i++ ) {
 }
 
 if($fleg==1)
-echo "Número pertence a sequencia fibonacci!";
+  echo "Número pertence a sequencia fibonacci!";
 else
-echo "Número NÃO pertence a sequencia fibonacci!";
+  echo "Número NÃO pertence a sequencia fibonacci!";
 
 ?>
