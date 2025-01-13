@@ -1,6 +1,6 @@
 <?php
 
-$notas = [
+$valores = [
     "SP" => 67836.43,
     "RJ" => 36678.66,
     "MG" => 29229.88,
@@ -8,12 +8,13 @@ $notas = [
     "outros" => 19849.53
 ];
 
-$total = array_sum($notas);
-
-echo "SP:".floor($notas['SP']/$total*100)."%"."<br/>";
-echo "RJ:".floor($notas['RJ']/$total*100)."%"."<br/>";
-echo "MG:".floor($notas['MG']/$total*100)."%"."<br/>";
-echo "ES:".floor($notas['ES']/$total*100)."%"."<br/>";
-echo "Outros:".floor($notas['outros']/$total*100)."%";
+echo "Total mensal: R$ " . $total = array_sum($valores);
+echo "<p>";
+echo "SP:".floor($valores['SP']/$total*100)."%"."<br/>";
+echo "RJ:".floor($valores['RJ']/$total*100)."%"."<br/>";
+echo "MG:".floor($valores['MG']/$total*100)."%"."<br/>";
+echo "ES:".floor($valores['ES']/$total*100)."%"."<br/>";
+echo "Outros:".floor($valores['outros']/$total*100)."%";
+echo "</p>";
 
 ?>
